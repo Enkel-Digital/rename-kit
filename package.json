@@ -1,0 +1,28 @@
+{
+  "name": "rename-kit",
+  "version": "0.1.0",
+  "description": "Toolkit to rename files or use this as a CLI to rename files",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "scripts": {
+    "start": "node --experimental-modules ./src/index.mjs",
+    "npm-publish": "git stash --include-untracked && npm publish && git stash apply",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enkel-Digital/rename-kit.git"
+  },
+  "keywords": [
+    "rename",
+    "api",
+    "toolkit",
+    "cli-tool"
+  ],
+  "author": "JJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Enkel-Digital/rename-kit/issues"
+  },
+  "homepage": "https://github.com/Enkel-Digital/rename-kit#readme"
+}
